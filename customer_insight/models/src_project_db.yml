@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: project_db
+    schema: RAW_DATA
+    tables:
+      - name: CUSTOMERS
+        description: "Table containing raw customer data"
+      - name: ORDERS
+        description: "Table containing order data"
+      - name: PRODUCTS
+        description: "Table containing order data"
+      - name: ORDER_ITEMS
+        description: "Table containing order data"
